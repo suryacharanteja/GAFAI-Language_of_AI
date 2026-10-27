@@ -13,12 +13,12 @@ You were in the workshop *The Language of AI: Communicating to Non-Technical Aud
 | File | What it is | When to use it |
 |---|---|---|
 | **This page** | The three skills, with templates and examples | Read once, then come back when you need it |
-| [**AI brief card**](ai-brief-card.html) | A two-sided A4 card with all three skills on it | Keep it on your desk, or bring it to the meeting |
+| [**AI brief card (PDF)**](ai-brief-card.pdf) | A two-sided A4 card with all three skills on it | Keep it on your desk, or bring it to the meeting |
 | [**Worksheet**](worksheet.md) | Fill-in-the-blanks for your own 4-sentence brief | Before any meeting where you talk about AI |
 | [**Workshop case**](case-brief.md) | The procedures-assistant example we used | Practise on it, or use it to teach your team |
 | [**License**](LICENSE.md) | CC BY 4.0 | Reuse and adapt the kit freely, with credit |
 
-**To print the card:** click [ai-brief-card.html](ai-brief-card.html), then **Download raw file**. Open the downloaded file in your browser, press **Ctrl+P** (or **Cmd+P** on a Mac), and choose **Save as PDF**, or print it double-sided.
+**To get the card:** open [ai-brief-card.pdf](ai-brief-card.pdf) and click the download button. Print it double-sided on A4.
 
 ## How to use the kit
 

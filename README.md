@@ -15,7 +15,7 @@ The kit teaches three skills, all in plain language:
 | | |
 |---|---|
 | [Kit guide](ai-brief-kit/README.md) | The three skills, with templates, examples and a checklist |
-| [AI brief card](ai-brief-kit/ai-brief-card.html) | A two-sided A4 card to print and keep on your desk |
+| [AI brief card (PDF)](ai-brief-kit/ai-brief-card.pdf) | A two-sided A4 card to print and keep on your desk |
 | [Worksheet](ai-brief-kit/worksheet.md) | Fill in your own 4-sentence brief |
 | [Workshop case](ai-brief-kit/case-brief.md) | The example used in the session, to practise on or teach your team |
 
