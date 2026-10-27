@@ -1,4 +1,5 @@
 # Track only the participant kit. Everything else stays local.
 /*
 !/.gitignore
+!/README.md
 !/ai-brief-kit/
