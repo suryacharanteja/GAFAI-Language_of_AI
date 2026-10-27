@@ -1,0 +1,4 @@
+# Track only the participant kit. Everything else stays local.
+/*
+!/.gitignore
+!/ai-brief-kit/

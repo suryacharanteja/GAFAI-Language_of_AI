@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Language of AI: Card</title>
+<style>
+  @page { size: A4; margin: 14mm 14mm 12mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #16202A; background: #FFFFFF; font-size: 10.5pt; line-height: 1.4; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  h1 { font-size: 22pt; margin: 0 0 1.5mm; font-weight: 800; letter-spacing: -0.3pt; }
+  .sub { font-size: 10.5pt; color: #3A4452; margin: 0 0 5mm; }
+  h2 { font-size: 10pt; text-transform: uppercase; letter-spacing: 1.2pt; color: #C2410C; margin: 6mm 0 2.5mm; font-weight: 800; }
+  h2.first { margin-top: 0; }
+  .page2 { break-before: page; page-break-before: always; }
+  .brief { border: 1.5pt solid #16202A; border-radius: 3mm; overflow: hidden; }
+  .row { display: flex; border-top: 1pt solid #D9D3C7; }
+  .row:first-child { border-top: none; }
+  .num { width: 11mm; flex: none; background: #16202A; color: #F6F4EF; font-weight: 800; font-size: 15pt; display: flex; align-items: center; justify-content: center; }
+  .cell { padding: 2.4mm 4mm; }
+  .label { font-weight: 800; font-size: 9.5pt; text-transform: uppercase; letter-spacing: 0.8pt; color: #5B6470; }
+  .tpl { font-size: 12pt; margin-top: 0.6mm; }
+  .tpl b { color: #C2410C; font-weight: 700; }
+  .tip { font-size: 9.5pt; color: #3A4452; margin-top: 0.6mm; }
+  .cols { display: flex; gap: 5mm; }
+  .cols > div { flex: 1; }
+  table { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  th, td { text-align: left; vertical-align: top; padding: 1.5mm 2mm; border-bottom: 0.75pt solid #D9D3C7; }
+  th { background: #F1EDE5; font-size: 9pt; text-transform: uppercase; letter-spacing: 0.6pt; }
+  td.k { font-weight: 700; white-space: nowrap; }
+  td.ex { color: #3A4452; font-style: italic; }
+  .dark { margin-top: 3mm; background: #16202A; color: #F6F4EF; border-radius: 2mm; padding: 2.6mm 4mm; font-weight: 700; font-size: 10.5pt; }
+  .prompt { margin-top: 3mm; border: 1pt dashed #5B6470; border-radius: 2mm; padding: 3mm 4mm; font-size: 9.5pt; background: #F6F4EF; }
+  .prompt .label { display: block; margin-bottom: 1mm; }
+  ul { margin: 0; padding-left: 4.5mm; font-size: 9.5pt; }
+  li { margin-bottom: 1.2mm; }
+  .foot { margin-top: 5mm; font-size: 8.5pt; color: #5B6470; }
+</style>
+</head>
+<body>
+  <h1>The Language of AI</h1>
+  <p class="sub">Talk about AI honestly, talk to it clearly, and know where to draw the line.</p>
+
+  <h2 class="first">1 · Talking about AI: the 4-sentence brief</h2>
+  <div class="brief">
+    <div class="row"><div class="num">1</div><div class="cell">
+      <div class="label">What it does</div>
+      <div class="tpl">This <b>[tool]</b> takes <b>[input]</b> and gives <b>[output]</b>, so <b>[who]</b> can <b>[spend time on what]</b>.</div>
+      <div class="tip">Name the task it takes off someone’s desk, not the technology.</div>
+    </div></div>
+    <div class="row"><div class="num">2</div><div class="cell">
+      <div class="label">The honest promise</div>
+      <div class="tpl">It <b>[does what well]</b>, but it can <b>[go wrong how]</b>, so <b>[what we do about it]</b>.</div>
+      <div class="tip">Say how often it goes wrong, and what you do about it.</div>
+    </div></div>
+    <div class="row"><div class="num">3</div><div class="cell">
+      <div class="label">Who holds the wheel</div>
+      <div class="tpl">For <b>[type of task]</b>, <b>[named role]</b> <b>[checks / decides]</b> before <b>[action]</b>.</div>
+      <div class="tip">Name a role, such as “the shift supervisor”, not “a human”.</div>
+    </div></div>
+    <div class="row"><div class="num">4</div><div class="cell">
+      <div class="label">The ask</div>
+      <div class="tpl">I need <b>[decision]</b> from <b>[who]</b> by <b>[date]</b>.</div>
+      <div class="tip">One decision they can say yes or no to. Not “thoughts?”</div>
+    </div></div>
+  </div>
+
+  <div class="cols">
+    <div>
+      <h2>For sentence 2: what you can honestly promise</h2>
+      <table>
+        <tr><th>If it…</th><th>You can promise</th></tr>
+        <tr><td class="k">Follows fixed rules</td><td>“It does exactly what we set, every time, and nothing else.”</td></tr>
+        <tr><td class="k">Predicts</td><td>“It gives a likelihood, not a certainty. Here’s how often it misses.”</td></tr>
+        <tr><td class="k">Drafts or answers</td><td>“It’s fast and usually right (here’s how often), but it can be wrong and sound sure. A person checks what matters.”</td></tr>
+        <tr><td class="k">Acts on its own</td><td>“It acts only within limits we set in advance, and a named person reviews what it does.”</td></tr>
+      </table>
+    </div>
+    <div>
+      <h2>For sentence 3: levels of control</h2>
+      <table>
+        <tr><th>Level</th><th>Use it for</th></tr>
+        <tr><td class="k">1 · A person decides</td><td>Safety, big money, people’s rights, anything you can’t undo</td></tr>
+        <tr><td class="k">2 · A person checks</td><td>Policy, customers, anything that leaves the team</td></tr>
+        <tr><td class="k">3 · It runs alone</td><td>Low stakes, easy to spot, easy to undo</td></tr>
+      </table>
+      <div class="dark">The test: if it’s wrong, who gets hurt, and can we undo it?</div>
+    </div>
+  </div>
+
+  <h2>Same brief, different room: keep all four, change the order</h2>
+  <table>
+    <tr><th>Room</th><th>Order</th><th>Start with</th></tr>
+    <tr><td class="k">Executive or sponsor</td><td class="k">4 → 1 → 2 → 3</td><td>The decision you need</td></tr>
+    <tr><td class="k">Staff who will use it</td><td class="k">1 → 3 → 2 → 4</td><td>What changes in their day; sentence 4 is what you need them to do</td></tr>
+    <tr><td class="k">Risk, legal or regulator</td><td class="k">3 → 2 → 1 → 4</td><td>Who holds the wheel</td></tr>
+  </table>
+
+  <div class="page2">
+    <h2 class="first">2 · Talking to AI: the 5-part prompt</h2>
+    <table>
+      <tr><th>Part</th><th>What it covers</th><th>Example</th></tr>
+      <tr><td class="k">1 · Role</td><td>Who the AI should act as</td><td class="ex">“Act as a communications advisor.”</td></tr>
+      <tr><td class="k">2 · Task</td><td>What you want done</td><td class="ex">“Rewrite this project update as a 4-sentence brief.”</td></tr>
+      <tr><td class="k">3 · Context</td><td>The background, and who it’s for</td><td class="ex">“It’s for a non-technical director who must approve a pilot.”</td></tr>
+      <tr><td class="k">4 · Format</td><td>Length, style and structure</td><td class="ex">“Plain words, under 100 words.”</td></tr>
+      <tr><td class="k">5 · Check</td><td>What it should flag for you</td><td class="ex">“Then list anything you assumed or aren’t sure about.”</td></tr>
+    </table>
+    <div class="prompt"><span class="label">A prompt you can copy (no confidential details)</span>Act as a communications advisor. Rewrite the project below as a 4-sentence brief for a non-technical director: (1) what it does, in plain words; (2) what it does well, how often it goes wrong, and what we do about it; (3) who checks or decides before anything important happens; (4) the one decision I need, from whom, by when. Plain words, under 100 words. Then list anything you assumed or aren’t sure about. Project: [2–3 lines, no confidential details]</div>
+
+    <h2>Before you use anything AI wrote</h2>
+    <ul>
+      <li><b>Is every fact true?</b> It can be wrong and sound sure.</li>
+      <li><b>Did it add anything you didn’t give it?</b> Numbers, names and promises are the usual suspects.</li>
+      <li><b>Would you sign your name to it?</b> If not, it isn’t finished.</li>
+    </ul>
+
+    <h2>3 · Where to draw the line: seven questions before you use or buy an AI tool</h2>
+    <table>
+      <tr><td class="k">Fairness</td><td>Does it work equally well for everyone it affects?</td></tr>
+      <tr><td class="k">Accountability</td><td>Who answers for it when it’s wrong?</td></tr>
+      <tr><td class="k">Transparency</td><td>Do people know AI is involved, and can we explain its answers?</td></tr>
+      <tr><td class="k">Ethics</td><td>Should we do this at all, even if we can?</td></tr>
+      <tr><td class="k">Safety</td><td>What’s the worst that happens if it fails, and who notices?</td></tr>
+      <tr><td class="k">Security</td><td>Where does our data go, and who can see it?</td></tr>
+      <tr><td class="k">Sovereignty</td><td>Where is our data stored and processed, and under whose laws?</td></tr>
+    </table>
+
+    <div class="cols">
+      <div>
+        <h2>Security: attackers use AI too</h2>
+        <ul>
+          <li>Never paste confidential information into an AI tool.</li>
+          <li>Use the AI tools your organization has approved.</li>
+          <li>Treat urgent messages, links and voice notes with extra suspicion.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Sustainability: use AI where it earns its place</h2>
+        <ul>
+          <li>Use it where it saves real effort.</li>
+          <li>Ask once, well, instead of five times.</li>
+          <li>Keep your own judgment for what matters most.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot">Shared under CC BY 4.0.</p>
+  </div>
+</body>
+</html>
