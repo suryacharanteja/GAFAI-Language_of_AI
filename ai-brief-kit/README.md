@@ -106,9 +106,9 @@ Every room hears sentence 2. Never drop the limit.
 ### Worked example: the procedures assistant
 
 1. **What it does:** This assistant answers staff questions from our own procedures, with a link to the exact page, so supervisors spend less time answering the same questions.
-2. **The honest promise:** It answers in seconds and shows where the answer came from, but in testing about [1 in X] answers had a mistake that sounded confident, so staff check the linked page before acting on anything important.
+2. **The honest promise:** It answers in seconds and shows where the answer came from, but in testing about 1 in 20 answers had a mistake that sounded confident, so staff check the linked page before acting on anything important.
 3. **Who holds the wheel:** For safety-critical tasks, it only points to the official procedure, and the shift supervisor confirms before anyone acts.
-4. **The ask:** I need approval for an 8-week pilot in one department, and a safety lead to sign off the safety rules, by [date].
+4. **The ask:** I need approval for an 8-week pilot in one department, and a safety lead to sign off the safety rules, by 30 November.
 
 ### Practice: fix this brief
 
@@ -125,7 +125,7 @@ A tool that predicts which customers will cancel. Every sentence below is weak. 
 1. This tool looks at customer history and flags who's likely to cancel next month, so the retention team can call them first.
 2. It gives a likelihood, not a certainty: in testing, about 7 in 10 of the customers it flagged did cancel, so we treat it as a call list, not a verdict.
 3. A retention team member decides whether and how to contact each flagged customer. Nothing goes out automatically.
-4. I need approval to trial it with one retention team for six weeks, starting [date].
+4. I need approval to trial it with one retention team for six weeks, starting 1 December.
 
 </details>
 

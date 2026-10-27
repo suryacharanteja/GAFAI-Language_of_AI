@@ -26,7 +26,7 @@ An AI assistant that staff can ask questions in plain language. It:
 
 ## Where it can go wrong
 
-- In testing, about [1 in X] answers had a mistake that sounded confident, for example mixing up two similar procedures or quoting an outdated version.
+- In testing, about 1 in 20 answers had a mistake that sounded confident, for example mixing up two similar procedures or quoting an outdated version.
 - It's meant to answer only from the documents it was given, but it can sometimes fill a gap with something that isn't in them.
 
 ## Three questions staff might ask it
