@@ -1,11 +1,47 @@
-# The Language of AI: Workshop Kit
+# The Language of AI: Take-Home Kit
 
-Three things from the workshop: how to talk **about** AI (a 4-sentence brief), how to talk **to** AI (a 5-part prompt), and **where to draw the line**. Nothing to install: everything is on this page.
+You were in the workshop *The Language of AI: Communicating to Non-Technical Audiences*. This page has everything from that hour, so you can use it at work tomorrow. You don't need any technical background, and there's nothing to install.
 
-- **Printable card (two-sided A4):** [ai-brief-card.pdf](ai-brief-card.pdf)
-- **Blank worksheet:** [worksheet.md](worksheet.md)
-- **The workshop case:** [case-brief.md](case-brief.md)
-- **License:** [CC BY 4.0](LICENSE.md), so you can reuse and adapt it with credit
+## Who this is for
+
+- **Anyone who has to explain an AI project** to a manager, a board, a client or their own team.
+- **Anyone who uses AI tools at work** and wants better answers from them.
+- **Anyone asked "should we use AI for this?"** who needs to know where to draw the line.
+
+## What's in the kit
+
+| File | What it is | When to use it |
+|---|---|---|
+| **This page** | The three skills, with templates and examples | Read once, then come back when you need it |
+| [**AI brief card**](ai-brief-card.html) | A two-sided A4 card with all three skills on it | Keep it on your desk, or bring it to the meeting |
+| [**Worksheet**](worksheet.md) | Fill-in-the-blanks for your own 4-sentence brief | Before any meeting where you talk about AI |
+| [**Workshop case**](case-brief.md) | The procedures-assistant example we used | Practise on it, or use it to teach your team |
+| [**License**](LICENSE.md) | CC BY 4.0 | Reuse and adapt the kit freely, with credit |
+
+**To print the card:** click [ai-brief-card.html](ai-brief-card.html), then **Download raw file**. Open the downloaded file in your browser, press **Ctrl+P** (or **Cmd+P** on a Mac), and choose **Save as PDF**, or print it double-sided.
+
+## How to use the kit
+
+**In the next 15 minutes:** while the workshop is fresh, do the steps below.
+1. Pick one real AI project, either your own or one you've heard about.
+2. Fill in the [worksheet](worksheet.md).
+3. Read your four sentences out loud and time them. Aim for under 30 seconds.
+
+**Before your next meeting about AI:**
+1. Check who's in the room, and reorder your brief using [Same brief, different room](#same-brief-different-room).
+2. Run the [checklist](#before-your-next-ai-conversation) at the bottom of this page.
+3. Bring the card.
+
+**When you use an AI tool:**
+1. Write your prompt with all [five parts](#2-talking-to-ai-the-5-part-prompt).
+2. Check the answer before you use it, with the three questions under [Before you use anything AI wrote](#before-you-use-anything-ai-wrote).
+
+**Before you use or buy an AI tool:** ask the [seven questions](#3-where-to-draw-the-line). If nobody can answer one of them, that's your line.
+
+**With your team (20 minutes):**
+1. Share this link.
+2. Give everyone the [workshop case](case-brief.md) and have each person write a 4-sentence brief.
+3. Compare briefs, then vote on which one a director would approve.
 
 ---
 
